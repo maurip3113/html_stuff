@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Animated Login Form</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class = "center">
+            <form method="post">
+                <div class="txt_field">
+                    <input type="text" required>
+                    <span></span>
+                    <label>Username</label>
+                </div>
+                <div class="txt_field">
+                    <input type="password" required>
+                    <span></span>
+                    <label>Password</label>
+                </div>
+                <input type="submit" value="Iniciar sesión">
+                <div class="pass"><a href="#">¿Olvidaste tu contraseña?</a></div>
+                <h1></h1>
+                <div class="crear_cuenta">
+                    <input type="button" value="Crear una cuenta" onclick="crear_cuenta()">
+                </div>
+                <script>
+                    function crear_cuenta(){
+                        window.location.href = "$$";
+                    }
+                </script>
+            </form>
+        </div>
+    </body>
